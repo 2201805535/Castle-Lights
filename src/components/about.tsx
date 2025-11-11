@@ -23,7 +23,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative w-full py-28 md:py-36 bg-gradient-to-b from-[#fffaf0] via-[#fefcf9] to-[#faf8f4] overflow-hidden"
+      className="relative w-full py-28 md:py-36 bg-linear-to-b from-[#fffaf0] via-[#fefcf9] to-[#faf8f4] overflow-hidden"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(212,175,55,0.08),transparent_70%)] pointer-events-none" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(212,175,55,0.06),transparent_70%)] pointer-events-none" />

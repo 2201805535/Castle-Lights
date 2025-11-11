@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Mail, Phone, Smartphone, MapPin } from "lucide-react";
+import { Mail, Smartphone, MapPin } from "lucide-react";
 import { useState } from "react";
 
 const Contact = () => {
@@ -36,14 +36,12 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative w-full py-28 md:py-36 bg-gradient-to-b from-[#fffaf0] via-[#fffdfa] to-[#fefcf8] overflow-hidden text-[#1a1a1a]"
+      className="relative w-full py-28 md:py-36 bg-linear-to-b from-[#fffaf0] via-[#fffdfa] to-[#fefcf8] overflow-hidden text-[#1a1a1a]"
     >
-     
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(212,175,55,0.08),transparent_70%)] pointer-events-none" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(212,175,55,0.05),transparent_70%)] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto px-6 relative z-10">
-       
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -54,9 +52,7 @@ const Contact = () => {
           تواصل معنا
         </motion.h2>
 
-      
         <div className="grid lg:grid-cols-2 gap-12">
-         
           <motion.form
             onSubmit={handleSubmit}
             initial={{ opacity: 0, x: -40 }}
@@ -115,7 +111,6 @@ const Contact = () => {
             </button>
           </motion.form>
 
-         
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -147,23 +142,12 @@ const Contact = () => {
               </div>
 
               <div className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-[#b8911a]" />
-                <a
-                  href="tel:+218512160618"
-                  dir="ltr"
-                  className="text-gray-700 text-sm underline hover:text-[#b8911a]"
-                >
-                  +218 51 216 0618
-                </a>
-              </div>
-
-              <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#b8911a]" />
                 <a
-                  href="mailto:info@anwar-alqalaa.com.ly"
+                  href="mailto:info@anwaralqalaa.com.ly"
                   className="text-gray-700 text-sm underline hover:text-[#b8911a]"
                 >
-                  info@anwar-alqalaa.com.ly
+                  info@anwaralqalaa.com.ly
                 </a>
               </div>
 

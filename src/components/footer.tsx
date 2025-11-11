@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <footer
       dir="rtl"
-      className="relative w-full bg-gradient-to-b from-[#fffaf0] via-[#fefcf9] to-[#faf8f4] border-t border-[#d4af37]/30 pt-24 overflow-hidden"
+      className="relative w-full bg-linear-to-b from-[#fffaf0] via-[#fefcf9] to-[#faf8f4] border-t border-[#d4af37]/30 pt-24 overflow-hidden"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(212,175,55,0.08),transparent_70%)] pointer-events-none" />
 
@@ -116,23 +116,14 @@ const Footer = () => {
                 +218 91 216 0618
               </a>
             </li>
-            <li className="flex items-center gap-3">
-              <FaPhoneAlt className="text-[#b8911a]" />
-              <a
-                href="tel:+218512160618"
-                dir="ltr"
-                className="hover:text-[#b8911a] transition"
-              >
-                +218 51 216 0618
-              </a>
-            </li>
+
             <li className="flex items-center gap-3">
               <FaEnvelope className="text-[#b8911a]" />
               <a
-                href="mailto:info@anwar-alqalaa.com.ly"
+                href="mailto:info@anwaralqalaa.com.ly"
                 className="hover:text-[#b8911a] transition"
               >
-                info@anwar-alqalaa.com.ly
+                info@anwaralqalaa.com.ly
               </a>
             </li>
           </ul>
