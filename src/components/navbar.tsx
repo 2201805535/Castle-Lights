@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Mail, Menu, X } from "lucide-react";
-import { FaFacebookF } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -46,10 +46,10 @@ const Navbar = () => {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
         scrolled
           ? "bg-[#fffaf0]/90 backdrop-blur-md shadow-[0_2px_12px_rgba(0,0,0,0.08)] border-b border-[#d4af37]/20"
-          : "bg-gradient-to-b from-[#faf8f4]/20 to-transparent backdrop-blur-sm"
+          : "bg-linear-to-b from-[#faf8f4]/20 to-transparent backdrop-blur-sm"
       }`}
     >
-      <header className="container mx-auto px-5 xl:px-0 flex items-center justify-between h-[80px] transition-colors duration-300">
+      <header className="container mx-auto px-5 xl:px-0 flex items-center justify-between h-20 transition-colors duration-300">
         <Link to="/" className="flex items-center gap-2 group">
           <img
             src="/images/logo_compressed.webp"
@@ -84,7 +84,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-3 md:gap-5">
           <a
-            href="https://www.facebook.com/anwaralqalaa"
+            href="https://www.wa.me/218912160618"
             target="_blank"
             rel="noopener noreferrer"
             className={`flex items-center justify-center w-9 h-9 rounded-full border transition-all duration-300 ${
@@ -93,7 +93,7 @@ const Navbar = () => {
                 : "border-white/30 text-white hover:bg-white/10"
             }`}
           >
-            <FaFacebookF className="w-4 h-4" />
+            <FaWhatsapp className="w-4 h-4" />
           </a>
 
           <a
@@ -122,7 +122,7 @@ const Navbar = () => {
       </header>
 
       <div
-        className={`absolute top-[80px] left-0 w-full md:hidden overflow-hidden transition-all duration-500 ease-in-out ${
+        className={`absolute top-20 left-0 w-full md:hidden overflow-hidden transition-all duration-500 ease-in-out ${
           open ? "max-h-[300px] opacity-100" : "max-h-0 opacity-0"
         } ${
           scrolled

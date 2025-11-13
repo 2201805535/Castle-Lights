@@ -23,7 +23,7 @@ const ServiceSection = ({
       dir="rtl"
       className={`relative w-full min-h-[90vh] flex flex-col md:flex-row overflow-hidden ${
         reversed ? "md:flex-row-reverse" : ""
-      } bg-gradient-to-b from-[#fffaf0] via-[#fefcf9] to-[#faf8f4]`}
+      } bg-linear-to-b from-[#fffaf0] via-[#fefcf9] to-[#faf8f4]`}
     >
       <motion.div
         initial={{ opacity: 0, scale: 1.05, x: reversed ? 100 : -100 }}
@@ -39,7 +39,7 @@ const ServiceSection = ({
             className="w-full h-full object-cover object-center brightness-[0.95] transition-transform duration-700 group-hover:scale-105"
           />
 
-          <div className="absolute inset-0 bg-gradient-to-t from-[#faf8f4]/60 via-transparent to-transparent group-hover:opacity-90 transition duration-700" />
+          <div className="absolute inset-0 bg-linear-to-t from-[#faf8f4]/60 via-transparent to-transparent group-hover:opacity-90 transition duration-700" />
 
           <div
             className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-700"

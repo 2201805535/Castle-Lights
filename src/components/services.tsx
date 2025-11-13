@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="relative w-full bg-gradient-to-b from-[#faf9f7] via-[#fffefc] to-[#f8f6f2] overflow-hidden"
+      className="relative w-full bg-linear-to-b from-[#faf9f7] via-[#fffefc] to-[#f8f6f2] overflow-hidden"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,rgba(212,175,55,0.07),transparent_70%)] pointer-events-none" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(0,0,0,0.05),transparent_70%)] pointer-events-none" />
