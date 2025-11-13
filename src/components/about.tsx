@@ -6,7 +6,7 @@ const About = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const images = ["/images/about.1.jpg", "/images/about.2.jpg"];
+  const images = ["/images/about.1_compressed.webp", "/images/about.2_compressed.webp"];
 
   const openLightbox = (index: number) => {
     setCurrentIndex(index);

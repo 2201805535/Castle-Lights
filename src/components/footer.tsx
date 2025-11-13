@@ -36,7 +36,7 @@ const Footer = () => {
           className="space-y-5"
         >
           <img
-            src="/images/logo.png"
+            src="/images/logo_compressed.webp"
             alt="شركة أنوار القلعة"
             className="w-36 md:w-44 h-auto drop-shadow-[0_0_15px_rgba(212,175,55,0.4)]"
           />

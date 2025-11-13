@@ -2,11 +2,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const mediaSequence = [
-  { type: "image", src: "/images/hero.1.jpeg", duration: 8 },
-  { type: "image", src: "/images/hero.2.jpg", duration: 8 },
-  { type: "image", src: "/images/hero.3.jpg", duration: 8 },
-  { type: "image", src: "/images/hero.4.jpg", duration: 8 },
-  { type: "image", src: "/images/hero.5.jpg", duration: 8 },
+  { type: "image", src: "/images/hero.1_compressed.webp", duration: 8 },
+  { type: "image", src: "/images/hero.2_compressed.webp", duration: 8 },
+  { type: "image", src: "/images/hero.3_compressed.webp", duration: 8 },
+  { type: "image", src: "/images/hero.4_compressed.webp", duration: 8 },
+  { type: "image", src: "/images/hero.5_compressed.webp", duration: 8 },
 ];
 
 const Hero = () => {
@@ -59,7 +59,7 @@ const Hero = () => {
 
       <div className="relative z-10 text-center px-6">
         <motion.img
-          src="/images/logo.png"
+          src="/images/logo_compressed.webp"
           alt="Logo"
           className="mx-auto w-44 md:w-52 h-auto object-contain drop-shadow-[0_0_15px_rgba(212,175,55,0.4)] mb-6"
           initial={{ opacity: 0, y: -20 }}

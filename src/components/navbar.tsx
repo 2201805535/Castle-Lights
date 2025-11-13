@@ -52,7 +52,7 @@ const Navbar = () => {
       <header className="container mx-auto px-5 xl:px-0 flex items-center justify-between h-[80px] transition-colors duration-300">
         <Link to="/" className="flex items-center gap-2 group">
           <img
-            src="/images/logo.png"
+            src="/images/logo_compressed.webp"
             alt="شعار شركة أنوار القلعة"
             className="w-12 h-12 object-contain drop-shadow-[0_0_8px_rgba(212,175,55,0.2)]"
           />

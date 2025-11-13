@@ -40,7 +40,7 @@ const Services = () => {
           id="cars"
           title="استيراد السيارات"
           description="نوفر سيارات حديثة ومستعملة من أشهر العلامات التجارية العالمية، مع متابعة كاملة لإجراءات الشحن والتسليم حتى وصولها إلى عملائنا داخل ليبيا."
-          image="/images/services/ser.1.jpg"
+          image="/images/services/ser.1_compressed.webp"
           color="rgba(212,175,55,0.9)"
         />
 
@@ -48,7 +48,7 @@ const Services = () => {
           id="parts"
           title="استيراد قطع الغيار الأصلية"
           description="نقدم مجموعة واسعة من قطع الغيار الأصلية والمضمونة، تشمل الميكانيكية والكهربائية والإلكترونية، لتلبية احتياجات الأفراد وورش الصيانة والشركات."
-          image="/images/services/ser.2.jpg"
+          image="/images/services/ser.2_compressed.webp"
           color="rgba(26,26,26,0.9)"
           reversed
         />
@@ -57,7 +57,7 @@ const Services = () => {
           id="logistics"
           title="الشحن والتخليص الجمركي"
           description="فريقنا المتخصص يتولى عمليات الشحن والتخليص الجمركي بدقة واحترافية عالية، لضمان سرعة التسليم وسلامة الشحنات من المصدر إلى الوجهة."
-          image="/images/services/ser3.jpg"
+          image="/images/services/ser3_compressed.webp"
           color="rgba(212,175,55,0.9)"
         />
 
@@ -65,7 +65,7 @@ const Services = () => {
           id="contracts"
           title="عروض توريد خاصة"
           description="نوفر حلولًا تجارية مخصصة للشركات والمؤسسات، تشمل التوريد بالجملة، والعقود السنوية بأسعار تنافسية وخدمات شاملة."
-          image="/images/services/ser.4.jpg"
+          image="/images/services/ser.4_compressed.webp"
           color="rgba(26,26,26,0.9)"
           reversed
         />
